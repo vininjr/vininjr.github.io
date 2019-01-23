@@ -1,0 +1,55 @@
+<header class="section">
+  <div class="header-info">
+    <h1 class="author-name">{{ site.author }}</h1>
+    <h2 class="author-title">{{ site.author-title }}</h2>
+    <ul class="profile-list">
+        {% if site.email %}
+        <li>
+          <a class="icon-email" href="mailto:{{ site.email }}">
+            <span class="screen-reader">E-mail: {{ site.email }}</span>
+          </a>
+        <li>
+      {% endif %}
+
+      {% if site.linkedin %}
+        <li>
+          <a class="icon-linkedin-square" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">
+            <span class="screen-reader">Linkedin profile: {{ site.linkedin }}</span>
+          </a>
+        <li>
+      {% endif %}
+
+      {% if site.github %}
+        <li>
+          <a class="icon-github-square" href="https://github.com/{{ site.github }}" target="_blank">
+            <span class="screen-reader">Github profile: {{ site.github }}</span>
+          </a>
+        <li>
+      {% endif %}
+
+      {% if site.twitter %}
+        <li>
+          <a class="icon-twitter-square" href="https://www.twitter.com/{{ site.twitter }}" target="_blank">
+            <span class="screen-reader">Twitter profile: {{ site.twitter }}</span>
+          </a>
+        <li>
+      {% endif %}
+
+      {% if site.facebook %}
+        <li>
+          <a class="icon-facebook-square" href="https://www.facebook.com/{{ site.facebook }}" target="_blank">
+            <span class="screen-reader">Facebook profile: {{ site.facebook }}</span>
+          </a>
+        <li>
+      {% endif %}
+
+      {% if site.googleplus %}
+        <li>
+          <a class="icon-google-plus-square" href="https://plus.google.com/{{ site.googleplus }}" target="_blank">
+            <span class="screen-reader">Google plus profile: {{ site.googleplus }}</span>
+          </a>
+        <li>
+      {% endif %}
+    </ul>
+  </div>
+</header>

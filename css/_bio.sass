@@ -1,0 +1,29 @@
+.bio
+  background-color: $bio-bg-color
+  color: $secondary
+  padding-top: px-to-rem(32)
+
+.bio-icon
+  font-size: px-to-rem($bio-icon-size)
+
+  &:before
+    vertical-align: middle
+
+  @include respond-to(medium)
+    font-size: px-to-rem($bio-icon-size + 60)
+
+  @include respond-to(medium)
+    font-size: px-to-rem($bio-icon-size + 130)
+
+.bio-img
+  border-radius: $bio-avatar-radius
+  display: block
+  margin: auto
+  max-width: 100%
+
+.bio-text
+  font-size: px-to-rem($bio-font-size)
+  text-align: $bio-text-alignment
+
+  @include respond-to(large)
+    font-size: px-to-rem($bio-font-size + 9)

@@ -1,0 +1,180 @@
+# Site settings
+
+baseurl: "" # the subpath of your site, e.g. /portfolio
+url: "" # the base hostname & protocol for your site
+language: "" # language to set into html tag, default is en
+
+# User settings
+
+author: Marcus Vinicius Martins Melo
+author-title: Full Stack Developer
+gravatar: d36a082aacb53b6f76869748fb4b81d4
+email: viniips@hotmail.com
+twitter: vininjr_
+github: vininjr
+googleplus: +WendellAdriel
+facebook: vininjr
+linkedin: wendelladrielti/en
+bio: "Brazilian developer. Game, music and technology lover.
+      I graduated in Computer Science and Development. I'm a Zend Certified PHP Engineer and Scrum Fundamentals Certified. I love to study and learn new skills,
+      exchange work and study experience with people around me and share my knowledge with the ones that want it. I work with Web Development since 2009 and with
+      Mobile Development since 2015 as Freelancer and in some Brazilian companies too.
+      I'm the creator of CodeShare, a free portal with articles, videos, etc, about Software Development. The purpose of this project is to help people who want
+      to learn about Software Development and start their careers in IT area and to help people that already work with Software Development to improve their
+      technical knowledge to get better job opportunities.
+      I like to work with both: Front-End and Back-End development. I work with many languages, frameworks and technologies."
+
+# Skills
+#
+# I'll use five differents levels:
+# 1 - Studying: You know the basics of the skill and is studying it to get better
+# 2 - Padawan: You know a little more than the basics and is comfortable to work with it
+# 3 - Work with: You know how to handle the skill and how to properly use it in a real project
+# 4 - Specialist: You have advanced knowledge of the skill and know how to use its best practices in a real project
+# 5 - Jedi: You master the skill, know how and when to use and when not use it
+#
+# You can change these names in _includes/_skill-level-name.html if you wish
+#
+# If you don't want one of the sections below, leave the variable without any values
+front-end:
+  - name: HTML 5
+    level: 4
+  - name: CSS 3
+    level: 4
+  - name: JavaScript
+    level: 4
+  - name: jQuery
+    level: 4
+  - name: Angular
+    level: 4
+  - name: Vue.js
+    level: 2
+  - name: Bootstrap
+    level: 4
+  - name: Materialize CSS
+    level: 5
+  - name: LESS
+    level: 3
+  - name: SASS
+    level: 3
+  - name: Stylus
+    level: 4
+  - name: Gulp
+    level: 4
+  - name: Grunt
+    level: 3
+  - name: Bower
+    level: 3
+
+back-end:
+  - name: PHP
+    level: 5
+  - name: Node.js
+    level: 3
+  - name: Ruby
+    level: 2
+  - name: Python
+    level: 2
+  - name: Java
+    level: 4
+  - name: COBOL
+    level: 2
+  - name: SQL
+    level: 4
+  - name: Lua
+    level: 2
+
+mobile:
+  - name: Android
+    level: 2
+  - name: Apache Cordova
+    level: 4
+  - name: Ionic
+    level: 4
+  - name: NativeScript
+    level: 3
+
+db:
+  - name: MySQL
+    level: 4
+  - name: PostgreSQL
+    level: 3
+  - name: MongoDB
+    level: 4
+  - name: SQL Server
+    level: 2
+  - name: Oracle
+    level: 3
+  - name: Firebase
+    level: 3
+  - name: NoSQL
+    level: 4
+
+devops:
+  - name: Docker
+    level: 3
+  - name: Vagrant
+    level: 3
+  - name: Jenkins
+    level: 1
+  - name: Git
+    level: 5
+  - name: Apache Maven
+    level: 3
+  - name: Continuous Integration
+    level: 3
+  - name: Continuous Delivery
+    level: 2
+
+methodologies:
+  - name: Agile Methodologies
+    level: 3
+  - name: Scrum
+    level: 4
+  - name: RUP
+    level: 3
+
+others:
+  - name: Web Services
+    level: 5
+  - name: REST
+    level: 5
+  - name: JEE, JSF, JPA, EJB, CDI
+    level: 3
+  - name: iReport, Jasper Reports
+    level: 2
+  - name: Hibernate
+    level: 3
+  - name: Grails
+    level: 2
+  - name: Symfony
+    level: 3
+  - name: Twig
+    level: 4
+  - name: Doctrine ORM
+    level: 3
+  - name: Laravel, Blade, Eloquent ORM
+    level: 5
+  - name: Ruby on Rails
+    level: 3
+  - name: MEAN Stack
+    level: 4
+  - name: Spring
+    level: 3
+
+# Build settings
+
+markdown: kramdown
+highlighter: rouge
+sitemap: true # Generate sitemap.xml
+
+sass:
+  sass_dir: css
+  style: compressed
+## For more settings: https://jekyllrb.com/docs/configuration/
+
+# exclude files if no need build
+exclude: ['package.json', 'node_modules', 'README.md', 'LICENSE']
+
+# Gems
+gems: [jekyll-sitemap]
