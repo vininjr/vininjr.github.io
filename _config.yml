@@ -12,27 +12,18 @@ email: viniips@hotmail.com
 twitter: vininjr_
 github: vininjr
 facebook: vininjr
-bio: "Brazilian developer. Game, music and technology lover.
-      I graduating in Computer Science and Development. I love to study and learn new skills,
-      exchange work and study experience with people around me and share my knowledge with the ones that want it. I work with Web Development 
-since 2014 and with Experience Development since 2018 as Trainee in NPDS too.
-      I'm the co-creator of EDeVE, a free portal with articles, tutorials, etc, about Software Development and IT. The purpose of this project is to help people who want
-      to learn about Software Development and start their careers in IT area and to help people that already work with Software Development to improve their
-      technical knowledge to get better job opportunities.
-      I like to work with both: Front-End and Back-End development. I work with many languages, frameworks and technologies."
+bio:  "I am a graduate student in Computer Science at the Federal University of Ceara, 
+      I love studying and learning new skills, exchanging work experiences with people
+      around me and sharing my knowledge with those who want it. 
+      since 2014 and I have Development Experience since 2018 as Trainee in NPDS. 
+      I am the co-creator of the EDeVE blog, a free portal with articles, tutorials,
+      etc. on software and IT development. I am a contributor to the blog SempreUPdate,
+      focused on free software and IT. The goal of this project is to help people who want to 
+      to learn about Software Development and start their careers in IT and to help people who
+      are already working with Software Development to improve their technical knowledge to obtain 
+      better job opportunities. I like working with both front-end and back-end development.
+      I work with many languages, frameworks and technologies."
 
-# Skills
-#
-# I'll use five differents levels:
-# 1 - Studying: You know the basics of the skill and is studying it to get better
-# 2 - Padawan: You know a little more than the basics and is comfortable to work with it
-# 3 - Work with: You know how to handle the skill and how to properly use it in a real project
-# 4 - Specialist: You have advanced knowledge of the skill and know how to use its best practices in a real project
-# 5 - Jedi: You master the skill, know how and when to use and when not use it
-#
-# You can change these names in _includes/_skill-level-name.html if you wish
-#
-# If you don't want one of the sections below, leave the variable without any values
 front-end:
   - name: HTML 5
     level: 4
@@ -44,8 +35,10 @@ front-end:
     level: 4
   - name: jQuery
     level: 4
-  - name: Angular
+  - name: AngularJS
     level: 4
+  - name: ReactJS
+    level: 2
   - name: Bootstrap
     level: 4
   - name: Materialize CSS
