@@ -1,4 +1,30 @@
 <header class="section">
+  
+  <link href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" rel="stylesheet"></link>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
+
+
+  <style>
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .ai {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .featurette-divider {
+      margin: 30px 0;
+  }
+
+  </style>
+
   <div class="header-info">
     <h1 class="author-name">{{ site.author }}</h1>
     <h2 class="author-title">{{ site.author-title }}</h2>
@@ -39,6 +65,14 @@
         <li>
           <a class="icon-facebook-square" href="https://www.facebook.com/{{ site.facebook }}" target="_blank">
             <span class="screen-reader">Facebook profile: {{ site.facebook }}</span>
+          </a>
+        <li>
+      {% endif %}
+
+      {% if site.lattes %}
+        <li>
+          <a class="ai ai-lattes-square ai-2x" href="http://www.lattes.cnpq.br/{{ site.lattes }}" target="_blank">
+            <span class="screen-reader">Lattes profile: {{ site.lattes }}</span>
           </a>
         <li>
       {% endif %}
