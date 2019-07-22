@@ -43,8 +43,8 @@ front-end:
     level: 2
   - name: Bootstrap
     level: 4
-  - name: Materialize CSS
-    level: 5
+  - name: VueJS
+    level: 3
 
 back-end:
   - name: PHP
@@ -61,14 +61,16 @@ back-end:
     level: 5
   - name: SQL
     level: 4
+  - name: Go
+    level: 4
 
 mobile:
   - name: Android
     level: 2
+  - name: ReactNative
+    level: 3
   - name: Ionic
     level: 1
-  - name: NativeScript
-    level: 2
 
 db:
   - name: MySQL
@@ -108,6 +110,8 @@ others:
   - name: Web Services
     level: 5
   - name: REST
+    level: 5
+  - name: API RESTful
     level: 5
   - name: JEE, JSF, JPA, EJB, CDI
     level: 3
