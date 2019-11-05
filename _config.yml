@@ -14,115 +14,115 @@ github: vininjr
 facebook: vininjr
 linkedin: vininjr
 lattes: 6091624045920112
-bio:  "I am a graduate student in Computer Science at the Federal University of Ceara, 
-      I love studying and learning new skills, exchanging work experiences with people
-      around me and sharing my knowledge with those who want it. 
-      since 2014 and I have Development Experience since 2018 as Trainee in NPDS. 
-      I am the co-creator of the EDeVE blog, a free portal with articles, tutorials,
-      etc. on software and IT development. I am a contributor to the blog SempreUPdate,
-      focused on free software and IT. The goal of this project is to help people who want to 
-      to learn about Software Development and start their careers in IT and to help people who
-      are already working with Software Development to improve their technical knowledge to obtain 
-      better job opportunities. I like working with both front-end and back-end development.
-      I work with many languages, frameworks and technologies."
+# bio:  "I am a graduate student in Computer Science at the Federal University of Ceara, 
+#       I love studying and learning new skills, exchanging work experiences with people
+#       around me and sharing my knowledge with those who want it. 
+#       since 2014 and I have Development Experience since 2018 as Trainee in NPDS. 
+#       I am the co-creator of the EDeVE blog, a free portal with articles, tutorials,
+#       etc. on software and IT development. I am a contributor to the blog SempreUPdate,
+#       focused on free software and IT. The goal of this project is to help people who want to 
+#       to learn about Software Development and start their careers in IT and to help people who
+#       are already working with Software Development to improve their technical knowledge to obtain 
+#       better job opportunities. I like working with both front-end and back-end development.
+#       I work with many languages, frameworks and technologies."
 
-front-end:
-  - name: HTML 5
-    level: 4
-  - name: CSS 3
-    level: 4
-  - name: JavaScript
-    level: 4
-  - name: TypeScript
-    level: 4
-  - name: jQuery
-    level: 4
-  - name: AngularJS
-    level: 4
-  - name: ReactJS
-    level: 2
-  - name: Bootstrap
-    level: 4
-  - name: VueJS
-    level: 3
+# front-end:
+#   - name: HTML 5
+#     level: 4
+#   - name: CSS 3
+#     level: 4
+#   - name: JavaScript
+#     level: 4
+#   - name: TypeScript
+#     level: 4
+#   - name: jQuery
+#     level: 4
+#   - name: AngularJS
+#     level: 4
+#   - name: ReactJS
+#     level: 2
+#   - name: Bootstrap
+#     level: 4
+#   - name: VueJS
+#     level: 3
 
-back-end:
-  - name: PHP
-    level: 3
-  - name: Node.js
-    level: 3
-  - name: Ruby
-    level: 1
-  - name: Python
-    level: 3
-  - name: Java
-    level: 5
-  - name: C++
-    level: 5
-  - name: SQL
-    level: 4
-  - name: Go
-    level: 4
+# back-end:
+#   - name: PHP
+#     level: 3
+#   - name: Node.js
+#     level: 3
+#   - name: Ruby
+#     level: 1
+#   - name: Python
+#     level: 3
+#   - name: Java
+#     level: 5
+#   - name: C++
+#     level: 5
+#   - name: SQL
+#     level: 4
+#   - name: Go
+#     level: 4
 
-mobile:
-  - name: Android
-    level: 2
-  - name: ReactNative
-    level: 3
-  - name: Ionic
-    level: 1
+# mobile:
+#   - name: Android
+#     level: 2
+#   - name: ReactNative
+#     level: 3
+#   - name: Ionic
+#     level: 1
 
-db:
-  - name: MySQL
-    level: 4
-  - name: PostgreSQL
-    level: 3
-  - name: MongoDB
-    level: 4
-  - name: SQL Server
-    level: 2
-  - name: Oracle
-    level: 3
-  - name: Firebase
-    level: 3
-  - name: NoSQL
-    level: 4
+# db:
+#   - name: MySQL
+#     level: 4
+#   - name: PostgreSQL
+#     level: 3
+#   - name: MongoDB
+#     level: 4
+#   - name: SQL Server
+#     level: 2
+#   - name: Oracle
+#     level: 3
+#   - name: Firebase
+#     level: 3
+#   - name: NoSQL
+#     level: 4
 
-devops:
-  - name: Git
-    level: 5
-  - name: Apache Maven
-    level: 4
-  - name: Continuous Integration
-    level: 3
-  - name: Continuous Delivery
-    level: 2
+# devops:
+#   - name: Git
+#     level: 5
+#   - name: Apache Maven
+#     level: 4
+#   - name: Continuous Integration
+#     level: 3
+#   - name: Continuous Delivery
+#     level: 2
 
-methodologies:
-  - name: Agile Methodologies
-    level: 4
-  - name: Scrum
-    level: 4
-  - name: RUP
-    level: 3
+# methodologies:
+#   - name: Agile Methodologies
+#     level: 4
+#   - name: Scrum
+#     level: 4
+#   - name: RUP
+#     level: 3
 
-others:
-  - name: Web Services
-    level: 5
-  - name: REST
-    level: 5
-  - name: API RESTful
-    level: 5
-  - name: JEE, JSF, JPA, EJB, CDI
-    level: 3
-  - name: Hibernate
-    level: 3
-  - name: Ruby on Rails
-    level: 3
-  - name: MEAN Stack
-    level: 4
-  - name: Spring
-    level: 3
+# others:
+#   - name: Web Services
+#     level: 5
+#   - name: REST
+#     level: 5
+#   - name: API RESTful
+#     level: 5
+#   - name: JEE, JSF, JPA, EJB, CDI
+#     level: 3
+#   - name: Hibernate
+#     level: 3
+#   - name: Ruby on Rails
+#     level: 3
+#   - name: MEAN Stack
+#     level: 4
+#   - name: Spring
+#     level: 3
 
 # Build settings
 
